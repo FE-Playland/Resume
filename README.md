@@ -16,11 +16,10 @@ Open http://localhost:3000
 
 make changes to `resume.json` and refresh the page to see changes🌈
 
-
 ## Credits
 
 [lihaoyi/Resume](https://github.com/lihaoyi/Resume)
 
-## License
+## Licence
 
 MIT
