@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Resume from './components/resume';
+import Home from './components/home';
+
+import { BrowserRouter } from 'react-router-dom'
 
 
-ReactDOM.render(<Resume />, document.getElementById('root'));
+ReactDOM.render(
+    <BrowserRouter >
+        <Home />
+    </BrowserRouter>
+    , document.getElementById('root'));
 
