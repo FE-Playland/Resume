@@ -10,11 +10,11 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <div id="nav">
+                {/* <div id="nav">
                     <NavLink exact to="/">Resume</NavLink>
                     <NavLink exact to="/new">New</NavLink>
                 </div>
-                <hr />
+                <hr /> */}
                 <Route exact path="/" component={Resume} />
                 <Route exact path="/new" component={CreateResumeForm} />
             </div>

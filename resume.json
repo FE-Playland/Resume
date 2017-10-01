@@ -1,89 +1,91 @@
 {
-    "basic_info": {
-        "name": "Zhao Xinyu",
-        "email": "zhaoxinyu1994@gmail.com",
-        "blog": "zhaoxinyu.me",
-        "github": "x140yu"
+  "basic_info": {
+    "name": "Zhao Xinyu",
+    "email": "zhaoxinyu1994@gmail.com",
+    "blog": "zhaoxinyu.me",
+    "github": "x140yu"
+  },
+  "sections": [{
+      "title": "Work",
+      "rows": [{
+        "name": "Zhihu",
+        "link": "https://www.zhihu.com",
+        "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
+        "location": "Beijing",
+        "date": "July 2016 - Present",
+        "subtitle": "Software Engineer, iOS",
+        "items": [{
+          "text": "Craft new things quickly. Deliver a demo video Q&A  app to the crew using Swift in a week"
+        }, {
+          "text": "Do some efficiency related works. Write shell/ruby scripts, <a href=\"https://github.com/X140Yu/development-pods-dependency-checker\">dependency checker tools</a>, update project for new versions of Xcode & Swift"
+        }, {
+          "text": "Normal features and bug fixes. Write Swift as much as I can"
+        }]
+      }]
     },
-    "sections": [{
-            "title": "Work",
-            "rows": [{
-                "name": "Zhihu",
-                "link": "https://www.zhihu.com",
-                "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
-                "location": "Beijing",
-                "date": "July 2016 - Present",
-                "subtitle": "Software Engineer, iOS",
-                "items": [{
-                    "text": "WIP"
-                }]
-            }]
-        },
-        {
-            "title": "Open Source",
-            "rows": [{
-                "name": "Developing iOS 8 Apps with Swift Translation",
-                "link": "https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift",
-                "icon": "",
-                "location": "",
-                "date": "Jan 2015 - June 2015",
-                "subtitle": "iOS open class subtile translation",
-                "items": [{
-                    "text": "Creat the project and organize the community to get involved the translation"
-                }, {
-                    "text": "Do a lot of translation, 146,286 ++ / 105,610 --"
-                }]
-            }, {
-                "name": "Switcher",
-                "link": "https://github.com/X140Yu/Switcher",
-                "icon": "",
-                "location": "",
-                "date": "Jun 2016",
-                "subtitle": "Easily switch AppleID in App Store & iTunes App on Mac",
-                "items": [{
-                    "text": "Native OS X app with some Apple Script in it"
-                }]
-            }]
+    {
+      "title": "Open Source",
+      "rows": [{
+        "name": "Developing iOS 8 Apps with Swift Translation",
+        "link": "https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift",
+        "location": "",
+        "date": "Jan 2015 - June 2015",
+        "subtitle": "iOS open class subtile translation",
+        "items": [{
+          "text": "Founded the project and organize the community to get involved in it"
+        }]
+      }, {
+        "name": "Switcher",
+        "link": "https://github.com/X140Yu/Switcher",
+        "location": "",
+        "date": "Jun 2016",
+        "subtitle": "Easily switch AppleID in App Store & iTunes App on Mac",
+        "items": [{
+          "text": "Native OS X app with some Apple Script in it"
+        }]
+      }]
+    }, {
+      "title": "Buzzwords",
+      "rows": [{
+        "items": [{
+          "text": "Swift - Objective-C - JavaScript - C"
         }, {
-            "title": "Buzzwords",
-            "rows": [{
-                "items": [{
-                    "text": "Swift - Objective-C - JavaScript - C"
-                }, {
-                    "text": "Mac OS - Linux"
-                }]
-            }]
+          "text": "Mac OS - Linux"
+        }]
+      }]
+    }, {
+      "title": "Ancient History",
+      "rows": [{
+        "name": "Zhihu",
+        "link": "https://www.zhihu.com",
+        "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
+        "location": "Beijing",
+        "date": "Sep 2015 - Dec 2015",
+        "subtitle": "Software Engineer Intern, iOS",
+        "items": [{
+          "text": "4,026 ++ / 1,899 --"
         }, {
-            "title": "Ancient History",
-            "rows": [{
-                "name": "Zhihu",
-                "link": "https://www.zhihu.com",
-                "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
-                "location": "Beijing",
-                "date": "Sep 2015 - Dec 2015",
-                "subtitle": "Software Engineer Intern, iOS",
-                "items": [{
-                    "text": "4,026 ++ / 1,899 --"
-                }, {
-                    "text": "Basicly do some bugfix, get started with the codebase and learn how to write iOS code in real life"
-                }]
-            }, {
-                "name": "Harbin University of Science and Technology",
-                "icon": "https://zhaoxinyu.me/resume/hrbustFavicon.ico",
-                "location": "Harbin",
-                "date": "Sep 2012 - Jun 2016",
-                "subtitle": "Bachelor's degree, Microelectronics",
-                "items": [{
-                    "text": "Learned basic iOS programming staff, craft and deliver 2 apps to the App Store <a href=\"https://itunes.apple.com/us/app/%E7%90%86%E5%B7%A5%E5%8A%A9%E6%89%8B-%E5%93%88%E7%90%86%E5%B7%A5%E6%95%99%E5%8A%A1%E5%A4%84%E5%8A%A9%E6%89%8B/id1024462561?l=zh&ls=1&mt=8\">理工助手</a> & <a href=\"https://itunes.apple.com/us/app/%E9%BB%91%E5%A4%A7%E7%9B%92%E5%AD%90-%E9%BB%91%E9%BE%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E6%9C%80%E7%BE%8E%E6%A0%A1%E5%9B%AD-app-%E4%B8%80%E6%AC%BE%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E5%90%8C%E5%AD%A6%E6%9F%A5%E8%AF%A2%E5%90%84%E7%A7%8D%E4%BF%A1%E6%81%AF%E7%9A%84-app/id1128079899?l=zh&ls=1&mt=8\">黑大盒子</a>"
-                }]
-            }]
+          "text": "Do some bug fixes and write few features. Get started with the codebase and learn how to write iOS code in real life"
+        }]
+      }, {
+        "name": "Harbin University of Science and Technology",
+        "icon": "https://zhaoxinyu.me/resume/hrbustFavicon.ico",
+        "location": "Harbin",
+        "date": "Sep 2012 - Jun 2016",
+        "subtitle": "Bachelor's degree, Microelectronics",
+        "items": [{
+          "text": "Learned basic iOS programming staff, craft and deliver 2 apps to the App Store <a href=\"https://itunes.apple.com/us/app/%E7%90%86%E5%B7%A5%E5%8A%A9%E6%89%8B-%E5%93%88%E7%90%86%E5%B7%A5%E6%95%99%E5%8A%A1%E5%A4%84%E5%8A%A9%E6%89%8B/id1024462561?l=zh&ls=1&mt=8\">理工助手</a> & <a href=\"https://itunes.apple.com/us/app/%E9%BB%91%E5%A4%A7%E7%9B%92%E5%AD%90-%E9%BB%91%E9%BE%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E6%9C%80%E7%BE%8E%E6%A0%A1%E5%9B%AD-app-%E4%B8%80%E6%AC%BE%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E5%90%8C%E5%AD%A6%E6%9F%A5%E8%AF%A2%E5%90%84%E7%A7%8D%E4%BF%A1%E6%81%AF%E7%9A%84-app/id1128079899?l=zh&ls=1&mt=8\">黑大盒子</a>"
+        }]
+      }]
+    }, {
+      "title": "Reference",
+      "rows": [{
+        "items": [{
+          "text": "Read and write english well. <a href=\"http://swift.gg/\" >SwiftGG</a> team translator, there are some of my <a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">translations</a>"
         }, {
-            "title": "Reference",
-            "rows": [{
-                "items": [{
-                    "text": "<a href=\"http://swift.gg/\" >SwiftGG</a> team translator, there are some of my <a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">translations</a>"
-                }]
-            }]
-        }
-    ]
+          "text": "Can build static websites using HTML, CSS and Javascript. React lover. <a href=\"https://github.com/FE-Playland\">some projects</a>"
+        }]
+      }]
+    }
+  ]
 }
