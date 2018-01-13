@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <link rel="shortcut icon" href="http://localhost:3000/favicon.ico">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+  <style type="text/css">body {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Candara, Segoe, 'Segoe UI', Optima, Arial, sans-serif;
+}</style><style type="text/css">p,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#container {
+    width: 720px;
+    padding: 30px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* display: table; */
+}
+
+#name {
+    color: #008;
+    font-size: 24px;
+    float: left;
+    margin: 0;
+}
+
+#nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    width: 720px;
+    margin: 20px;
+}
+
+.grey {
+    text-align: right;
+    color: #888;
+    font-size: 11px;
+    margin: 0px;
+}
+
+a {
+    color: #5A1F8D;
+}
+
+li {
+    font-size: 0.8em;
+}
+
+.section-container {
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.section-header {
+    color: #008;
+    width: 130px;
+}
+
+.section-rows {
+    -ms-flex: 1 1;
+        flex: 1 1;
+    margin-bottom: 10px;
+}
+
+.section-row {
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 10px;
+    line-height: 1.1em;
+    -ms-flex-pack: start;
+        justify-content: flex-start;
+}
+
+.row-sub-header {
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+.row-left {
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+}
+
+.row-right {
+    -ms-flex-positive: 2;
+        flex-grow: 2;
+    white-space: nowrap;
+}
+
+img {
+    width: 15px;
+    height: 15px;
+    margin-left: 2px;
+    vertical-align: center;
+}</style></head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"><div data-reactroot=""><div id="container"><div><p id="name">赵新宇</p><p class="grey">zhaoxinyu1994@gmail.com</p><p class="grey"><a href="https://zhaoxinyu.me/" target="_blank">https://zhaoxinyu.me</a></p><p class="grey"><a href="https://github.com/x140yu" target="_blank">https://github.com/x140yu</a></p><hr></div><div class="section-container"><div class="section-header">Work</div><div class="section-rows"><div class="section-row"><div class="row-left"><div class="row-header"><a href="https://www.zhihu.com/" target="_blank">知乎</a><img src="resume-chinese_files/zhihuFavicon.ico"><p class="row-sub-header">iOS 开发工程师</p></div><ul><li>完成大量组件化工作。</li><li>参与了知乎 Hybrid 平台的建设。</li><li>快速完成原型。在一周时间内用 Swift 编写了一个简单的视频问答应用</li><li>完成效率、工程相关的工作。编写过 shell/ruby 脚本，<a href="https://github.com/X140Yu/development-pods-dependency-checker">development pods 依赖分析工具</a>，第一时间为工程适配新版 Xcode 和 Swift</li><li>日常「能用 Swift 就不用 Objective-C」的需求开发及 bug 修复</li></ul></div><div class="row-right"><p class="grey">北京</p><p class="grey">2016 年 7 月至今</p></div></div></div></div><div class="section-container"><div class="section-header">Open Source</div><div class="section-rows"><div class="section-row"><div class="row-left"><div class="row-header"><a href="https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift" target="_blank">Developing iOS 8 Apps with Swift 字幕翻译</a><p class="row-sub-header">斯坦福 iOS 公开课字幕翻译</p></div><ul><li>创建了项目并带动社区一起参与翻译</li></ul></div><div class="row-right"><p class="grey"></p><p class="grey">2015 年 1 月 - 2015 年 6 月</p></div></div><div class="section-row"><div class="row-left"><div class="row-header"><a href="https://github.com/X140Yu/Switcher" target="_blank">Switcher</a><p class="row-sub-header">在 Mac 上轻松切换 App Store &amp; iTunes 的账号</p></div><ul><li>用 Swift 编写的 native OS X 应用，其中运用了一些 AppleScript</li></ul></div><div class="row-right"><p class="grey"></p><p class="grey">2016 年 6 月</p></div></div></div></div><div class="section-container"><div class="section-header">Ancient History</div><div class="section-rows"><div class="section-row"><div class="row-left"><div class="row-header"><a href="https://www.zhihu.com/" target="_blank">知乎</a><img src="resume-chinese_files/zhihuFavicon.ico"><p class="row-sub-header">iOS 开发实习生</p></div><ul><li>修 bug 并开发一些不复杂的需求</li></ul></div><div class="row-right"><p class="grey">北京</p><p class="grey">2015 年 9 月 - 2015 年 12 月</p></div></div><div class="section-row"><div class="row-left"><div class="row-header"><a target="_blank">哈尔滨理工大学</a><img src="resume-chinese_files/hrbustFavicon.ico"><p class="row-sub-header">本科, 微电子科学与工程</p></div><ul><li>自学 iOS 开发。开发并上架了两个应用 <a href="https://itunes.apple.com/us/app/%E7%90%86%E5%B7%A5%E5%8A%A9%E6%89%8B-%E5%93%88%E7%90%86%E5%B7%A5%E6%95%99%E5%8A%A1%E5%A4%84%E5%8A%A9%E6%89%8B/id1024462561?l=zh&amp;ls=1&amp;mt=8">理工助手</a> &amp; <a href="https://itunes.apple.com/us/app/%E9%BB%91%E5%A4%A7%E7%9B%92%E5%AD%90-%E9%BB%91%E9%BE%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E6%9C%80%E7%BE%8E%E6%A0%A1%E5%9B%AD-app-%E4%B8%80%E6%AC%BE%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E5%90%8C%E5%AD%A6%E6%9F%A5%E8%AF%A2%E5%90%84%E7%A7%8D%E4%BF%A1%E6%81%AF%E7%9A%84-app/id1128079899?l=zh&amp;ls=1&amp;mt=8">黑大盒子</a></li></ul></div><div class="row-right"><p class="grey">哈尔滨</p><p class="grey">2012 年 9 月 - 2016 年 6 月</p></div></div></div></div><div class="section-container"><div class="section-header">Reference</div><div class="section-rows"><div class="section-row"><div class="row-left"><div class="row-header"><a target="_blank"></a><p class="row-sub-header"></p></div><ul><li>熟悉 CocoaPods。</li><li>熟悉多种编程语言。Objective-C/Swift/Ruby/C</li><li>熟练使用 Git，熟悉多人协作流程。rebase/merge/cherry-pick</li><li>具备流利的英语阅读和书写能力。 <a href="http://swift.gg/">SwiftGG</a> 翻译组成员，<a href="http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/">一些翻译的文章</a></li><li><a href="https://speakerdeck.com/x140yu">这里</a>有我在团队内部做过的一些分享</li><li>具备一定的前端能力。React 爱好者。<a href="https://github.com/FE-Playland">这里有一些项目</a>。这份简历是由<a href="https://github.com/FE-Playland/Resume">它生成的</a></li><li>善于安装(折腾)各种环境。喜爱各种效率工具。Emacs 爱好者</li><li>如果你想更多地了解我，可以翻翻我的<a href="https://zhaoxinyu.me/">博客</a>和 <a href="https://twitter.com/X140_Yu">twitter</a> </li></ul></div><div class="row-right"><p class="grey"></p><p class="grey"></p></div></div></div></div></div><!-- react-empty: 3 --></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script type="text/javascript" src="resume-chinese_files/bundle.js"></script>
+
+<div id="simple-translate-button" style="display: none;"></div><div id="simple-translate-panel" style="display: none;"><p>...</p></div></body><div><style type="text/css">/*
+ * Many CSS class names in this file use the verbose "vimiumXYZ" as the class name. This is so we don't
+ * use the same CSS class names that the page is using, so the page's CSS doesn't mess with the style of our
+ * Vimium dialogs.
+ *
+ * The z-indexes of Vimium elements are very large, because we always want them to show on top.  We know
+ * that Chrome supports z-index values up to about 2^31.  The values we use are large numbers approaching
+ * that bound.  However, we must leave headroom for link hints.  Hint marker z-indexes start at 2140000001.
+ */
+
+/*
+ * This vimiumReset class can be added to any of our UI elements to give it a clean slate. This is useful in
+ * case the page has declared a broad rule like "a { padding: 50px; }" which will mess up our UI. These
+ * declarations contain more specifiers than necessary to increase their specificity (precedence).
+ */
+.vimiumReset,
+div.vimiumReset,
+span.vimiumReset,
+table.vimiumReset,
+a.vimiumReset,
+a:visited.vimiumReset,
+a:link.vimiumReset,
+a:hover.vimiumReset,
+td.vimiumReset,
+tr.vimiumReset {
+  background: none;
+  border: none;
+  bottom: auto;
+  box-shadow: none;
+  color: black;
+  cursor: auto;
+  display: inline;
+  float: none;
+  font-family : "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: inherit;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  height: auto;
+  left: auto;
+  letter-spacing: 0;
+  line-height: 100%;
+  margin: 0;
+  max-height: none;
+  max-width: none;
+  min-height: 0;
+  min-width: 0;
+  opacity: 1;
+  padding: 0;
+  position: static;
+  right: auto;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  top: auto;
+  vertical-align: baseline;
+  white-space: normal;
+  width: auto;
+  z-index: 2140000000; /* Vimium's reference z-index value. */
+}
+
+thead.vimiumReset, tbody.vimiumReset {
+  display: table-header-group;
+}
+
+tbody.vimiumReset {
+  display: table-row-group;
+}
+
+/* Linkhints CSS */
+
+div.internalVimiumHintMarker {
+  position: absolute;
+  display: block;
+  top: -1px;
+  left: -1px;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 11px;
+  padding: 1px 3px 0px 3px;
+  background: linear-gradient(to bottom, #FFF785 0%,#FFC542 100%);
+  border: solid 1px #C38A22;
+  border-radius: 3px;
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+div.internalVimiumHintMarker span {
+  color: #302505;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 11px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+div.internalVimiumHintMarker > .matchingCharacter {
+  color: #D4AC3A;
+}
+
+div > .vimiumActiveHintMarker span {
+  color: #A07555 !important;
+}
+
+/* Input hints CSS */
+
+div.internalVimiumInputHint {
+  position: absolute;
+  display: block;
+  background-color: rgba(255, 247, 133, 0.3);
+  border: solid 1px #C38A22;
+  pointer-events: none;
+}
+
+div.internalVimiumSelectedInputHint {
+  background-color: rgba(255, 102, 102, 0.3);
+  border: solid 1px #993333 !important;
+}
+
+div.internalVimiumSelectedInputHint span {
+  color: white !important;
+}
+
+/* Frame Highlight Marker CSS*/
+div.vimiumHighlightedFrame {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  border: 5px solid yellow;
+  box-sizing: border-box;
+  pointer-events: none;
+}
+
+/* Help Dialog CSS */
+
+iframe.vimiumHelpDialogFrame {
+  background-color: rgba(10,10,10,0.6);
+  padding: 0px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: fixed;
+  border: none;
+  z-index: 2139999997; /* Three less than the reference value. */
+}
+
+div#vimiumHelpDialogContainer {
+  opacity:1.0;
+  background-color:white;
+  border:2px solid #b3b3b3;
+  border-radius:6px;
+  width: 840px;
+  max-width: calc(100% - 100px);
+  max-height: calc(100% - 100px);
+  margin: 50px auto;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+div#vimiumHelpDialog {
+  min-width: 600px;
+  padding:8px 12px;
+}
+
+span#vimiumTitle, span#vimiumTitle span,  span#vimiumTitle * { font-size:20px; }
+#vimiumTitle {
+  display: block;
+  line-height: 130%;
+  white-space: nowrap;
+}
+td.vimiumHelpDialogTopButtons {
+  width: 100%;
+  text-align: right;
+}
+#helpDialogOptionsPage, #helpDialogWikiPage {
+  font-size: 14px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+div.vimiumColumn {
+  width:50%;
+  float:left;
+  font-size: 11px;
+  line-height: 130%;
+}
+
+div.vimiumColumn tr {
+    display: table-row;
+}
+
+div.vimiumColumn td {
+    display: table-cell;
+    font-size: 11px;
+    line-height: 130%;
+}
+div.vimiumColumn table, div.vimiumColumn td, div.vimiumColumn tr { padding:0; margin:0; }
+div.vimiumColumn table { width:100%; table-layout:auto; }
+div.vimiumColumn td { vertical-align:top; padding:1px; }
+div#vimiumHelpDialog div.vimiumColumn tr > td:first-of-type {
+  /* This is the "key" column, e.g. "j", "gg". */
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+  text-align:right;
+  white-space:nowrap;
+}
+span.vimiumHelpDialogKey {
+  background-color: rgb(243,243,243);
+  color: rgb(33,33,33);
+  margin-left: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  box-shadow: inset 0 -1px 0 #bbb;
+  font-family: monospace;
+  font-size: 11px;
+}
+/* Make the description column as wide as it can be. */
+div#vimiumHelpDialog div.vimiumColumn tr > td:nth-of-type(3) { width:100%; }
+div#vimiumHelpDialog div.vimiumDivider {
+  display: block;
+  height:1px;
+  width:100%;
+  margin:10px auto;
+  background-color:#9a9a9a;
+}
+div#vimiumHelpDialog td.vimiumHelpSectionTitle {
+  padding-top:3px;
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:16px;
+  font-weight:bold;
+}
+div#vimiumHelpDialog td.vimiumHelpDescription {
+  font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size:14px;
+}
+div#vimiumHelpDialog span.vimiumCopyCommandNameName {
+  font-style: italic;
+  cursor: pointer;
+  font-size: 12px;
+}
+/* Advanced commands are hidden by default until you show them. */
+div#vimiumHelpDialog tr.advanced { display: none; }
+div#vimiumHelpDialog.showAdvanced tr.advanced { display: table-row; }
+div#vimiumHelpDialog div.advanced td:nth-of-type(3) { color: #555; }
+div#vimiumHelpDialog a.closeButton {
+  font-family:"courier new";
+  font-weight:bold;
+  color:#555;
+  text-decoration:none;
+  font-size:24px;
+  position: relative;
+  top: 3px;
+  padding-left: 5px;
+}
+div#vimiumHelpDialog a {
+  text-decoration: underline;
+}
+
+div#vimiumHelpDialog a.closeButton:hover {
+  color:black;
+  -webkit-user-select:none;
+}
+div#vimiumHelpDialogFooter {
+  display: block;
+  position: relative;
+  margin-bottom: 37px;
+}
+table.helpDialogBottom {
+  width:100%;
+}
+td.helpDialogBottomRight {
+  width:100%;
+  float:right;
+  text-align: right;
+}
+td.helpDialogBottomRight, td.helpDialogBottomLeft {
+  padding: 0px;
+}
+div#vimiumHelpDialogFooter * { font-size:10px; }
+a#toggleAdvancedCommands, span#help-dialog-tip {
+  position: relative;
+  top: 19px;
+  white-space: nowrap;
+  font-size: 10px;
+}
+a:link.vimiumHelDialogLink, a:visited.vimiumHelDialogLink,
+  a:hover.vimiumHelDialogLink, a:active.vimiumHelDialogLink, a#toggleAdvancedCommands {
+    color:#2f508e;
+    text-decoration: underline;
+}
+
+/* Vimium HUD CSS */
+
+div.vimiumHUD {
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  /* Keep this far enough to the right so that it doesn't collide with the "popups blocked" chrome HUD. */
+  right: 0px;
+  color: black;
+  height: auto;
+  min-height: 13px;
+  width: auto;
+  max-width: 400px;
+  min-width: 150px;
+  text-align: left;
+  background-color: #ebebeb;
+  padding: 3px 3px 2px 3px;
+  margin: 0;
+  border: 1px solid #b3b3b3;
+  border-radius: 4px 4px 0 0;
+  font-family: "Lucida Grande", "Arial", "Sans";
+  font-size: 12px;
+  text-shadow: 0px 1px 2px #FFF;
+  line-height: 1.0;
+}
+
+iframe.vimiumHUDFrame {
+  display: block;
+  background: none;
+  position: fixed;
+  bottom: 0px;
+  right: 150px;
+  height: 20px;
+  min-height: 20px;
+  width: 450px;
+  min-width: 150px;
+  padding: 0px;
+  margin: 0;
+  border: none;
+  z-index: 2149999998; /* Two less than the reference value. */
+  opacity: 0;
+}
+
+div.vimiumHUD span#hud-find-input, div.vimiumHUD span#hud-match-count {
+  display: inline;
+  outline: none;
+  white-space: nowrap;
+  overflow-y: hidden;
+}
+
+div.vimiumHUD span#hud-find-input br {
+  display: none;
+}
+
+div.vimiumHUD span#hud-find-input * {
+  display: inline;
+  white-space: nowrap;
+}
+
+body.vimiumFindMode ::selection {
+  background: #ff9632;
+}
+
+/* Vomnibar Frame CSS */
+
+iframe.vomnibarFrame {
+  background-color: transparent;
+  padding: 0px;
+  overflow: hidden;
+
+  display: block;
+  position: fixed;
+  width: calc(80% + 20px); /* same adjustment as in pages/vomnibar.coffee */
+  min-width: 400px;
+  height: calc(100% - 70px);
+  top: 70px;
+  left: 50%;
+  margin: 0 0 0 -40%;
+  border: none;
+  font-family: sans-serif;
+  z-index: 2149999998; /* Two less than the reference value. */
+}
+
+div.vimiumFlash {
+  box-shadow: 0px 0px 4px 2px #4183C4;
+  padding: 1px;
+  background-color: transparent;
+  position: absolute;
+  z-index: 2140000000;
+}
+
+/* UIComponent CSS */
+iframe.vimiumUIComponentHidden {
+  display: none;
+}
+
+iframe.vimiumUIComponentVisible {
+  display: block;
+}
+
+iframe.vimiumUIComponentReactivated {
+  border: 5px solid yellow;
+}
+</style><iframe class="vomnibarFrame vimiumUIComponentHidden" src="resume-chinese_files/vomnibar.html"></iframe></div></html>
