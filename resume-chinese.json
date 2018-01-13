@@ -2,33 +2,38 @@
   "basic_info": {
     "name": "赵新宇",
     "email": "zhaoxinyu1994@gmail.com",
-    "blog": "zhaoxinyu.me",
+    "blog": "https://zhaoxinyu.me",
     "github": "x140yu"
   },
-  "sections": [{
+  "sections": [
+    {
       "title": "Work",
-      "rows": [{
-        "name": "知乎",
-        "link": "https://www.zhihu.com",
-        "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
-        "location": "北京",
-        "date": "2016 年 7 月至今",
-        "subtitle": "iOS 开发工程师",
-        "items": [{
-            "text": "快速完成原型。在一周时间内用 Swift 编写了一个简单的视频问答应用"
-          },
-          {
-            "text": "完成效率、工程相关的工作。编写过 shell/ruby 脚本，<a href=\"https://github.com/X140Yu/development-pods-dependency-checker\">development pods 依赖分析工具</a>，第一时间为工程适配新版 Xcode 和 Swift"
-          },
-          {
-            "text": "日常 bug 修复及「能写 Swift 就不用 Objective-C」的需求开发"
-          }
-        ]
-      }]
+      "rows": [
+        {
+          "name": "知乎",
+          "link": "https://www.zhihu.com",
+          "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
+          "location": "北京",
+          "date": "2016 年 7 月至今",
+          "subtitle": "iOS 开发工程师",
+          "items": [
+            {
+              "text": "快速完成原型。在一周时间内用 Swift 编写了一个简单的视频问答应用"
+            },
+            {
+              "text": "完成效率、工程相关的工作。编写过 shell/ruby 脚本，<a href=\"https://github.com/X140Yu/development-pods-dependency-checker\">development pods 依赖分析工具</a>，第一时间为工程适配新版 Xcode 和 Swift"
+            },
+            {
+              "text": "日常 bug 修复及「能写 Swift 就不用 Objective-C」的需求开发"
+            }
+          ]
+        }
+      ]
     },
     {
       "title": "Open Source",
-      "rows": [{
+      "rows": [
+        {
           "name": "Developing iOS 8 Apps with Swift 字幕翻译",
           "link": "https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift",
           "location": "",
@@ -52,7 +57,8 @@
     },
     {
       "title": "Ancient History",
-      "rows": [{
+      "rows": [
+        {
           "name": "知乎",
           "link": "https://www.zhihu.com",
           "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
@@ -77,21 +83,24 @@
     },
     {
       "title": "Reference",
-      "rows": [{
-        "items": [{
-            "text": "具备流利的英语阅读和书写能力。 <a href=\"http://swift.gg/\" >SwiftGG</a> 翻译组成员，<a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
-          },
-          {
-            "text": "对 FRP 有一定的理解及爱好。日常开发熟练使用 ReactiveObjC 及 RxSwift"
-          },
-          {
-            "text": "具备一定的前端能力。React 爱好者。<a href=\"https://github.com/FE-Playland\">一些项目</a>。这份简历是由<a href=\"https://github.com/FE-Playland/Resume\">它生成的</a>"
-          },
-          {
-            "text": "不是很喜欢国内的社交网站。如果想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>和 <a href=\"https://twitter.com/X140_Yu\">twitter</a> "
-          }
-        ]
-      }]
+      "rows": [
+        {
+          "items": [
+            {
+              "text": "具备流利的英语阅读和书写能力。 <a href=\"http://swift.gg/\" >SwiftGG</a> 翻译组成员，<a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
+            },
+            {
+              "text": "对 FRP 有一定的理解及爱好。日常开发熟练使用 ReactiveObjC 及 RxSwift"
+            },
+            {
+              "text": "具备一定的前端能力。React 爱好者。<a href=\"https://github.com/FE-Playland\">一些项目</a>。这份简历是由<a href=\"https://github.com/FE-Playland/Resume\">它生成的</a>"
+            },
+            {
+              "text": "不是很喜欢国内的社交网站。如果想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>和 <a href=\"https://twitter.com/X140_Yu\">twitter</a> "
+            }
+          ]
+        }
+      ]
     }
   ]
 }
