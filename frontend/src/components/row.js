@@ -32,6 +32,10 @@ class Row extends Component {
         if (info.icon !== undefined) {
             icon = <img src={info.icon} />
         }
+        let items = null
+        if (info.items !== undefined) {
+          items = <ItemList items={info.items} />
+        }
         return (
             <div className="section-row">
                 <div className="row-left">
@@ -40,7 +44,7 @@ class Row extends Component {
                         {icon}
                         <p className="row-sub-header">{info.subtitle}</p>
                     </div>
-                    <ItemList items={info.items} />
+                    {items}
                 </div>
                 <ExtraInfoItem date={info.date} location={info.location} />
             </div>

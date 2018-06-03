@@ -15,38 +15,57 @@
           "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
           "location": "北京",
           "date": "2016 年 7 月至今",
-          "subtitle": "iOS 开发工程师",
+          "subtitle": "iOS 开发工程师"
+        },
+        {
+          "subtitle": "工程改进以及组件化需求开发",
           "items": [
             {
-              "text": "完成大量组件化工作。"
+              "text": "使用 Ruby 开发命令行工具，提升 setup 的效率，降低脚本管理的难度"
             },
             {
-              "text": "参与了知乎 Hybrid 平台的建设。"
+              "text": "完成 App 组件化相关需求开发（setup/update/moduleMap），提升业务组件的开发效率"
             },
             {
-              "text": "快速完成原型。在一周时间内用 Swift 编写了一个简单的视频问答应用"
+              "text": "提升工程编译速度（私有 Specs 仓库/二进制化/CocoaPods patch）"
+            }
+          ]
+        },        
+        {
+          "subtitle": "基础组件的开发与维护",
+          "items": [
+            {
+              "text": "参与 HybridSDK 以及 ABTestSDK 的编写"
             },
             {
-              "text": "完成效率、工程相关的工作。编写过 shell/ruby 脚本，<a href=\"https://github.com/X140Yu/development-pods-dependency-checker\">development pods 依赖分析工具</a>，第一时间为工程适配新版 Xcode 和 Swift"
+              "text": "创建基础组件模版，使用 gitlab-runner 运行 CI job 并在 MR 集成 swiftlint/oclint/danger"
+            }
+          ]
+        },
+        {
+          "subtitle": "业务需求开发",
+          "items": [
+            {
+              "text": "Remix 音频专辑售卖/短视频问答 App Demo/（均已下线）"
             },
             {
-              "text": "日常「能用 Swift 就不用 Objective-C」的需求开发及 bug 修复"
+              "text": "Live、每日新知等知识市场业务需求开发及 bug 修复"
             }
           ]
         }
       ]
     },
     {
-      "title": "Open Source",
+      "title": "Projects",
       "rows": [
         {
-          "name": "Developing iOS 8 Apps with Swift 字幕翻译",
-          "link": "https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift",
+          "name": "Development Pods Dependency Checker",
+          "link": "https://github.com/X140Yu/development-pods-dependency-checker",
           "location": "",
-          "date": "2015 年 1 月 - 2015 年 6 月",
-          "subtitle": "斯坦福 iOS 公开课字幕翻译",
+          "date": "2017 年 9 月",
+          "subtitle": "",
           "items": [{
-            "text": "创建了项目并带动社区一起参与翻译"
+            "text": "一个分析使用 CocoaPods 项目中 Development Pods 依赖关系的 electron 应用"
           }]
         },
         {
@@ -57,6 +76,16 @@
           "subtitle": "在 Mac 上轻松切换 App Store & iTunes 的账号",
           "items": [{
             "text": "用 Swift 编写的 native OS X 应用，其中运用了一些 AppleScript"
+          }]
+        },
+        {
+          "name": "Developing iOS 8 Apps with Swift 字幕翻译",
+          "link": "https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift",
+          "location": "",
+          "date": "2015 年 1 月 - 2015 年 6 月",
+          "subtitle": "斯坦福 iOS 公开课字幕翻译",
+          "items": [{
+            "text": "创建了项目并带动社区一起参与翻译"
           }]
         }
       ]
@@ -93,13 +122,13 @@
         {
           "items": [
             {
-              "text": "熟悉 CocoaPods。"
+              "text": "熟悉 CocoaPods，能够编写相关 patch 代码实现自定义需求"
             },
             {
-              "text": "熟悉多种编程语言。Objective-C/Swift/Ruby/C"
+              "text": "熟悉 Objective-C/Swift/Ruby"
             },
             {
-              "text": "熟练使用 Git，熟悉多人协作流程。rebase/merge/cherry-pick"
+              "text": "熟练使用 Git，熟悉多人多分支协作流程。rebase/merge/cherry-pick/git-flow"
             },
             {
               "text": "具备流利的英语阅读和书写能力。 <a href=\"http://swift.gg/\" >SwiftGG</a> 翻译组成员，<a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
@@ -108,13 +137,13 @@
               "text": "<a href=\"https://speakerdeck.com/x140yu\">这里</a>有我在团队内部做过的一些分享"
             },
             {
-              "text": "具备一定的前端能力。React 爱好者。<a href=\"https://github.com/FE-Playland\">这里有一些项目</a>。这份简历是由<a href=\"https://github.com/FE-Playland/Resume\">它生成的</a>"
+              "text": "具备一定的前端 UI 构建能力；<a href=\"https://github.com/FE-Playland\">这里有一些项目</a>；这份简历是由<a href=\"https://github.com/FE-Playland/Resume\">它生成的</a>"
             },
             {
-              "text": "善于安装(折腾)各种环境。喜爱各种效率工具。Emacs 爱好者"
+              "text": "善于安装(折腾)各种环境，*nix 爱好者"
             },
             {
-              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>和 <a href=\"https://twitter.com/X140_Yu\">twitter</a> "
+              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>和 <a href=\"https://twitter.com/_X140Yu\">twitter</a> "
             }
           ]
         }
