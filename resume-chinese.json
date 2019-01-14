@@ -21,16 +21,16 @@
           "subtitle": "工程改进以及组件化需求开发",
           "items": [
             {
-              "text": "使用 Ruby 开发命令行工具，提升 setup 的效率，降低脚本管理的难度"
+              "text": "提升工程编译速度，减少 90% 编译时间（预编译的 Static Framework/CocoaPods patch）"
             },
             {
-              "text": "完成 App 组件化相关需求开发（setup/update/moduleMap），提升业务组件的开发效率"
+              "text": "使用 Ruby 开发命令行工具，提升 setup 的效率。编写 custom Ruby Gem，降低脚本管理的难度"
             },
             {
-              "text": "提升工程编译速度（私有 Specs 仓库/二进制化/CocoaPods patch）"
+              "text": "完成 App 组件化相关需求开发，提升业务组件的开发效率。用代码生成中间层，供业务组件依赖调用其它业务组件提供的接口，而彼此之间不需互相依赖"
             }
           ]
-        },        
+        },
         {
           "subtitle": "基础组件的开发与维护",
           "items": [
@@ -38,7 +38,7 @@
               "text": "参与 HybridSDK 以及 ABTestSDK 的编写"
             },
             {
-              "text": "创建基础组件模版，使用 gitlab-runner 运行 CI job 并在 MR 集成 swiftlint/oclint/danger"
+              "text": "提供创建基础组件的模版。使用 gitlab-runner 运行 CI job，并在 MR 集成中运行 swiftlint/oclint/danger。降低犯低级错误的可能，提升 code review 效率"
             }
           ]
         },
@@ -46,7 +46,7 @@
           "subtitle": "业务需求开发",
           "items": [
             {
-              "text": "Remix 音频专辑售卖/短视频问答 App Demo/（均已下线）"
+              "text": "音频专辑售卖/短视频问答 App Demo/（均已下线）"
             },
             {
               "text": "Live、每日新知等知识市场业务需求开发及 bug 修复"
@@ -59,13 +59,13 @@
       "title": "Projects",
       "rows": [
         {
-          "name": "Development Pods Dependency Checker",
-          "link": "https://github.com/X140Yu/development-pods-dependency-checker",
+          "name": "cocoapods-dependency",
+          "link": "https://github.com/X140Yu/cocoapods-dependency",
           "location": "",
-          "date": "2017 年 9 月",
+          "date": "2018 年 9 月",
           "subtitle": "",
           "items": [{
-            "text": "一个分析使用 CocoaPods 项目中 Development Pods 依赖关系的 electron 应用"
+            "text": "一个分析使用 CocoaPods 项目中 Pods 依赖关系的插件"
           }]
         },
         {
@@ -101,7 +101,7 @@
           "date": "2015 年 9 月 - 2015 年 12 月",
           "subtitle": "iOS 开发实习生",
           "items": [{
-            "text": "修 bug 并开发一些不复杂的需求"
+            "text": "修 bug 并开发业务需求"
           }]
         },
         {
@@ -122,16 +122,13 @@
         {
           "items": [
             {
-              "text": "熟悉 CocoaPods，能够编写相关 patch 代码实现自定义需求"
-            },
-            {
               "text": "熟悉 Objective-C/Swift/Ruby"
             },
             {
-              "text": "熟练使用 Git，熟悉多人多分支协作流程。rebase/merge/cherry-pick/git-flow"
+              "text": "熟练使用 Git，熟悉多人多分支协作流程。rebase/merge/cherry-pick"
             },
             {
-              "text": "具备流利的英语阅读和书写能力。 <a href=\"http://swift.gg/\" >SwiftGG</a> 翻译组成员，<a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
+              "text": "具备流利的英语阅读和书写能力。<a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
             },
             {
               "text": "<a href=\"https://speakerdeck.com/x140yu\">这里</a>有我在团队内部做过的一些分享"
@@ -143,7 +140,7 @@
               "text": "善于安装(折腾)各种环境，*nix 爱好者"
             },
             {
-              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>和 <a href=\"https://twitter.com/_X140Yu\">twitter</a> "
+              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>"
             }
           ]
         }
