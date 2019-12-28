@@ -4,17 +4,13 @@ Generate a Résumé like [this one](https://x140yu.github.io/resume/) using Reac
 
 ## Getting Started
 
-Start the json-server
-
-`json-server --watch resume.json -p 8989`
-
-inside frontend folder and start the react server
+Start the react server
 
 `yarn install && yarn start`
 
 Open http://localhost:3000
 
-make changes to `resume.json` and refresh the page to see changes🌈
+Make changes to `public/resume.json` or `public/resume-chinese.json` and refresh the page to see changes🌈
 
 ## Credits
 
