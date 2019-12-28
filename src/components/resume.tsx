@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "./header";
 import Section from "./section";
 import { Resume } from "../types";
@@ -18,7 +18,7 @@ const ResumeHome = (props: { cn: boolean }) => {
     };
 
     fetchData();
-  }, []);
+  });
 
   if (!resume) {
     return <div />;

@@ -10,6 +10,8 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "noUnusedLocals": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "module": "esnext",

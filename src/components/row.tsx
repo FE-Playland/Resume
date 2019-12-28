@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Resume } from "../types";
 import { GreyLabel } from "./styledComponents";
 
@@ -47,10 +47,10 @@ const Row = (props: Resume.Row) => {
         }}
       >
         <div className="row-header">
-          <a href={link} target="_blank">
+          <a href={link} target="_blank" rel="noopener noreferrer">
             {name}
           </a>
-          {icon && <img src={icon} />}
+          {icon && <img src={icon} alt="icon" />}
           <p
             style={{
               fontWeight: "bold",
