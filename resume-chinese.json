@@ -2,7 +2,7 @@
   "basic_info": {
     "name": "赵新宇",
     "email": "zhaoxinyu1994@gmail.com",
-    "blog": "https://zhaoxinyu.me",
+    "blog": "https://x140yu.github.io",
     "github": "x140yu"
   },
   "sections": [
@@ -12,7 +12,7 @@
         {
           "name": "知乎",
           "link": "https://www.zhihu.com",
-          "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
+          "icon": "https://x140yu.github.io/resume/zhihuFavicon.ico",
           "location": "北京",
           "date": "2016 年 7 月至今",
           "subtitle": "iOS 开发工程师"
@@ -96,7 +96,7 @@
         {
           "name": "知乎",
           "link": "https://www.zhihu.com",
-          "icon": "https://zhaoxinyu.me/resume/zhihuFavicon.ico",
+          "icon": "https://x140yu.github.io/resume/zhihuFavicon.ico",
           "location": "北京",
           "date": "2015 年 9 月 - 2015 年 12 月",
           "subtitle": "iOS 开发实习生",
@@ -106,7 +106,7 @@
         },
         {
           "name": "哈尔滨理工大学",
-          "icon": "https://zhaoxinyu.me/resume/hrbustFavicon.ico",
+          "icon": "https://x140yu.github.io/resume/hrbustFavicon.ico",
           "location": "哈尔滨",
           "date": "2012 年 9 月 - 2016 年 6 月",
           "subtitle": "本科, 微电子科学与工程",
@@ -128,7 +128,7 @@
               "text": "熟练使用 Git，熟悉多人多分支协作流程。rebase/merge/cherry-pick"
             },
             {
-              "text": "具备流利的英语阅读和书写能力。<a href=\"http://zhaoxinyu.me/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
+              "text": "具备流利的英语阅读和书写能力。<a href=\"http://x140yu.github.io/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
             },
             {
               "text": "<a href=\"https://speakerdeck.com/x140yu\">这里</a>有我在团队内部做过的一些分享"
@@ -140,7 +140,7 @@
               "text": "善于安装(折腾)各种环境，*nix 爱好者"
             },
             {
-              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://zhaoxinyu.me\">博客</a>"
+              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://x140yu.github.io\">博客</a>"
             }
           ]
         }
