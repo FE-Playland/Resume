@@ -1,15 +1,28 @@
-name: CI
+name: website
 
-on: [push]
+on: push
 
 jobs:
-  build:
-
+  publish:
     runs-on: ubuntu-latest
-  
     steps:
-      - name: GitHub Pages Deploy
+      -
+        name: Checkout
+        uses: actions/checkout@v1
+      -
+        name: Build
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: install # will run `yarn install` command
+      - uses: borales/actions-yarn@v2.0.0
+        with:
+          cmd: build # will run `yarn build` command
+      -
+        name: Deploy
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
+          target_branch: gh-pages
+          build_dir: build
         env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-          BUILD_DIR: "build/"
-        uses: maxheld83/ghpages@v0.2.1
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
