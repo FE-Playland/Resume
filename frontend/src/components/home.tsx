@@ -8,7 +8,26 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <Route exact path="/" component={Resume} />
+        <Route
+          exact
+          path="/"
+          component={() => (
+            <ul
+              style={{
+                padding: "50px"
+              }}
+            >
+              <li>
+                <NavLink to="/en">EN</NavLink>
+              </li>
+              <li>
+                <NavLink to="/cn">CN</NavLink>
+              </li>
+            </ul>
+          )}
+        />
+        <Route exact path="/en" component={() => <Resume cn={false} />} />
+        <Route exact path="/cn" component={() => <Resume cn />} />
         <Route exact path="/new" component={CreateResumeForm} />
       </div>
     );

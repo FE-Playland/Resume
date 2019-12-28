@@ -3,13 +3,21 @@ import Header from "./header";
 import Section from "./section";
 import { Resume } from "../types";
 
-const ResumeHome = () => {
+const ResumeHome = (props: { cn: boolean }) => {
   const [resume, setResume] = useState<Resume.ResumeInfo>();
 
   useEffect(() => {
-    fetch("http://localhost:8989/db")
-      .then(res => res.json())
-      .then(res => setResume(res));
+    const fetchData = async () => {
+      let name = "resume";
+      if (props.cn) {
+        name = "resume-chinese";
+      }
+      const res = await fetch(`${name}.json`);
+      const data = await res.json();
+      setResume(data as any);
+    };
+
+    fetchData();
   }, []);
 
   if (!resume) {
