@@ -1,0 +1,150 @@
+{
+  "basic_info": {
+    "name": "赵新宇",
+    "email": "zhaoxinyu1994@gmail.com",
+    "blog": "https://x140yu.github.io",
+    "github": "x140yu"
+  },
+  "sections": [
+    {
+      "title": "Work",
+      "rows": [
+        {
+          "name": "知乎",
+          "link": "https://www.zhihu.com",
+          "icon": "https://x140yu.github.io/resume/zhihuFavicon.ico",
+          "location": "北京",
+          "date": "2016 年 7 月至今",
+          "subtitle": "iOS 开发工程师"
+        },
+        {
+          "subtitle": "工程改进以及组件化需求开发",
+          "items": [
+            {
+              "text": "提升工程编译速度，减少 90% 编译时间（预编译的 Static Framework/CocoaPods patch）"
+            },
+            {
+              "text": "使用 Ruby 开发命令行工具，提升 setup 的效率。编写 custom Ruby Gem，降低脚本管理的难度"
+            },
+            {
+              "text": "完成 App 组件化相关需求开发，提升业务组件的开发效率。用代码生成中间层，供业务组件依赖调用其它业务组件提供的接口，而彼此之间不需互相依赖"
+            }
+          ]
+        },
+        {
+          "subtitle": "基础组件的开发与维护",
+          "items": [
+            {
+              "text": "参与 HybridSDK 以及 ABTestSDK 的编写"
+            },
+            {
+              "text": "提供创建基础组件的模版。使用 gitlab-runner 运行 CI job，并在 MR 集成中运行 swiftlint/oclint/danger。降低犯低级错误的可能，提升 code review 效率"
+            }
+          ]
+        },
+        {
+          "subtitle": "业务需求开发",
+          "items": [
+            {
+              "text": "音频专辑售卖/短视频问答 App Demo/（均已下线）"
+            },
+            {
+              "text": "Live、每日新知等知识市场业务需求开发及 bug 修复"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "rows": [
+        {
+          "name": "cocoapods-dependency",
+          "link": "https://github.com/X140Yu/cocoapods-dependency",
+          "location": "",
+          "date": "2018 年 9 月",
+          "subtitle": "",
+          "items": [{
+            "text": "一个分析使用 CocoaPods 项目中 Pods 依赖关系的插件"
+          }]
+        },
+        {
+          "name": "Switcher",
+          "link": "https://github.com/X140Yu/Switcher",
+          "location": "",
+          "date": "2016 年 6 月",
+          "subtitle": "在 Mac 上轻松切换 App Store & iTunes 的账号",
+          "items": [{
+            "text": "用 Swift 编写的 native OS X 应用，其中运用了一些 AppleScript"
+          }]
+        },
+        {
+          "name": "Developing iOS 8 Apps with Swift 字幕翻译",
+          "link": "https://github.com/X140Yu/Developing_iOS_8_Apps_With_Swift",
+          "location": "",
+          "date": "2015 年 1 月 - 2015 年 6 月",
+          "subtitle": "斯坦福 iOS 公开课字幕翻译",
+          "items": [{
+            "text": "创建了项目并带动社区一起参与翻译"
+          }]
+        }
+      ]
+    },
+    {
+      "title": "Ancient History",
+      "rows": [
+        {
+          "name": "知乎",
+          "link": "https://www.zhihu.com",
+          "icon": "https://x140yu.github.io/resume/zhihuFavicon.ico",
+          "location": "北京",
+          "date": "2015 年 9 月 - 2015 年 12 月",
+          "subtitle": "iOS 开发实习生",
+          "items": [{
+            "text": "修 bug 并开发业务需求"
+          }]
+        },
+        {
+          "name": "哈尔滨理工大学",
+          "icon": "https://x140yu.github.io/resume/hrbustFavicon.ico",
+          "location": "哈尔滨",
+          "date": "2012 年 9 月 - 2016 年 6 月",
+          "subtitle": "本科, 微电子科学与工程",
+          "items": [{
+            "text": "自学 iOS 开发。开发并上架了两个应用 <a href=\"https://itunes.apple.com/us/app/%E7%90%86%E5%B7%A5%E5%8A%A9%E6%89%8B-%E5%93%88%E7%90%86%E5%B7%A5%E6%95%99%E5%8A%A1%E5%A4%84%E5%8A%A9%E6%89%8B/id1024462561?l=zh&ls=1&mt=8\">理工助手</a> & <a href=\"https://itunes.apple.com/us/app/%E9%BB%91%E5%A4%A7%E7%9B%92%E5%AD%90-%E9%BB%91%E9%BE%99%E6%B1%9F%E5%A4%A7%E5%AD%A6%E6%9C%80%E7%BE%8E%E6%A0%A1%E5%9B%AD-app-%E4%B8%80%E6%AC%BE%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E5%90%8C%E5%AD%A6%E6%9F%A5%E8%AF%A2%E5%90%84%E7%A7%8D%E4%BF%A1%E6%81%AF%E7%9A%84-app/id1128079899?l=zh&ls=1&mt=8\">黑大盒子</a>"
+          }]
+        }
+      ]
+    },
+    {
+      "title": "Reference",
+      "rows": [
+        {
+          "items": [
+            {
+              "text": "熟悉 Objective-C/Swift/Ruby"
+            },
+            {
+              "text": "熟练使用 Git，熟悉多人多分支协作流程。rebase/merge/cherry-pick"
+            },
+            {
+              "text": "具备流利的英语阅读和书写能力。<a href=\"http://x140yu.github.io/tags/%E7%BF%BB%E8%AF%91/\">一些翻译的文章</a>"
+            },
+            {
+              "text": "<a href=\"https://speakerdeck.com/x140yu\">这里</a>有我在团队内部做过的一些分享"
+            },
+            {
+              "text": "具备一定的前端 UI 构建能力；<a href=\"https://github.com/FE-Playland\">这里有一些项目</a>；这份简历是由<a href=\"https://github.com/FE-Playland/Resume\">它生成的</a>"
+            },
+            {
+              "text": "善于安装(折腾)各种环境，*nix 爱好者"
+            },
+            {
+              "text": "如果你想更多地了解我，可以翻翻我的<a href=\"https://x140yu.github.io\">博客</a>"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
