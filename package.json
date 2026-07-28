@@ -20,6 +20,7 @@
   "scripts": {
     "start": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/start.js",
     "build": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/build.js",
+    "postbuild": "cp build/index.html build/404.html",
     "test": "node --openssl-legacy-provider ./node_modules/react-scripts/scripts/test.js --env=jsdom",
     "eject": "react-scripts eject"
   },
