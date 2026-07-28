@@ -1,6 +1,6 @@
 # Résumé
 
-Generate a Résumé like [this one](https://x140yu.github.io/resume/) using React.js.
+Generate a Résumé like [this one](https://fe-playland.github.io/Resume/en) using React.js.
 
 ## Getting Started
 
