@@ -11,13 +11,14 @@ const Name = styled.p`
 `;
 
 const Header = (props: { basicInfo: Resume.BasicInfo }) => {
-  const { name, email, blog, github } = props.basicInfo;
+  const { name, email, wechat, blog, github } = props.basicInfo;
   const githubLink = `https://github.com/${github}`;
 
   return (
     <div>
       <Name>{name}</Name>
       <GreyLabel>{email}</GreyLabel>
+      {wechat && <GreyLabel>WeChat: {wechat}</GreyLabel>}
       <GreyLabel>
         <a href={blog} target="_blank" rel="noopener noreferrer">
           {blog}
