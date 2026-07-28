@@ -12,7 +12,7 @@
         {
           "name": "Zhihu.com",
           "link": "https://www.zhihu.com",
-          "icon": "https://x140yu.github.io/resume/zhihuFavicon.ico",
+          "icon": "https://www.zhihu.com/favicon.ico",
           "location": "Beijing",
           "date": "July 2016 - Present",
           "subtitle": "Software Engineer, iOS"
@@ -95,7 +95,7 @@
       "rows": [{
         "name": "Zhihu.com",
         "link": "https://www.zhihu.com",
-        "icon": "https://x140yu.github.io/resume/zhihuFavicon.ico",
+        "icon": "https://www.zhihu.com/favicon.ico",
         "location": "Beijing",
         "date": "Sep 2015 - Dec 2015",
         "subtitle": "Software Engineer Intern, iOS",
@@ -106,7 +106,7 @@
         ]
       }, {
         "name": "Harbin University of Science and Technology",
-        "icon": "https://x140yu.github.io/resume/hrbustFavicon.ico",
+        "icon": "https://www.hrbust.edu.cn/favicon.ico",
         "location": "Harbin",
         "date": "Sep 2012 - Jun 2016",
         "subtitle": "Bachelor's degree, Microelectronics",

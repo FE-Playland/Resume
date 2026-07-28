@@ -12,13 +12,13 @@ const ResumeHome = (props: { cn: boolean }) => {
       if (props.cn) {
         name = "resume-chinese";
       }
-      const res = await fetch(`${name}.json`);
+      const res = await fetch(`${process.env.PUBLIC_URL}/${name}.json`);
       const data = await res.json();
       setResume(data as any);
     };
 
     fetchData();
-  });
+  }, [props.cn]);
 
   if (!resume) {
     return <div />;
