@@ -19,6 +19,7 @@ const ExtraInfoItem = (props: { date?: string; location?: string }) => {
 
   return (
     <div
+      className="resume-row__extra"
       style={{
         flexGrow: 2,
         whiteSpace: "nowrap"
@@ -34,6 +35,7 @@ const Row = (props: Resume.Row) => {
   const { icon, link, name, subtitle, location, date, items } = props;
   return (
     <div
+      className="resume-row"
       style={{
         display: "flex",
         marginBottom: "10px",
@@ -50,7 +52,7 @@ const Row = (props: Resume.Row) => {
           <a href={link} target="_blank" rel="noopener noreferrer">
             {name}
           </a>
-          {icon && <img src={icon} alt="icon" />}
+          {icon && <img src={icon} alt={`${name} logo`} />}
           <p
             style={{
               fontWeight: "bold",

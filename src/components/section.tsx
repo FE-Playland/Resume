@@ -7,11 +7,13 @@ const Section = (props: Resume.Section) => {
 
   return (
     <div
+      className="resume-section"
       style={{
         display: "flex"
       }}
     >
       <div
+        className="resume-section__title"
         style={{
           color: "#008",
           width: "130px"

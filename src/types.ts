@@ -6,6 +6,7 @@ export namespace Resume {
 
   export interface BasicInfo {
     name: string;
+    headline?: string;
     email: string;
     wechat?: string;
     blog: string;

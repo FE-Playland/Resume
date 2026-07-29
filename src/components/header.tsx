@@ -6,29 +6,45 @@ import { GreyLabel } from "./styledComponents";
 const Name = styled.p`
   color: #008;
   font-size: 24px;
-  float: left;
   margin: 0;
 `;
 
+const Identity = styled.div`
+  float: left;
+`;
+
+const Headline = styled.p`
+  color: #555;
+  font-size: 13px;
+  margin: 2px 0 0;
+`;
+
+const Contact = styled.div``;
+
 const Header = (props: { basicInfo: Resume.BasicInfo }) => {
-  const { name, email, wechat, blog, github } = props.basicInfo;
+  const { name, headline, email, wechat, blog, github } = props.basicInfo;
   const githubLink = `https://github.com/${github}`;
 
   return (
-    <div>
-      <Name>{name}</Name>
-      <GreyLabel>{email}</GreyLabel>
-      {wechat && <GreyLabel>WeChat: {wechat}</GreyLabel>}
-      <GreyLabel>
-        <a href={blog} target="_blank" rel="noopener noreferrer">
-          {blog}
-        </a>
-      </GreyLabel>
-      <GreyLabel>
-        <a href={githubLink} target="_blank" rel="noopener noreferrer">
-          {githubLink}
-        </a>
-      </GreyLabel>
+    <div className="resume-header">
+      <Identity className="resume-header__identity">
+        <Name>{name}</Name>
+        {headline && <Headline>{headline}</Headline>}
+      </Identity>
+      <Contact className="resume-header__contact">
+        <GreyLabel>{email}</GreyLabel>
+        {wechat && <GreyLabel>WeChat: {wechat}</GreyLabel>}
+        <GreyLabel>
+          <a href={blog} target="_blank" rel="noopener noreferrer">
+            {blog}
+          </a>
+        </GreyLabel>
+        <GreyLabel>
+          <a href={githubLink} target="_blank" rel="noopener noreferrer">
+            {githubLink}
+          </a>
+        </GreyLabel>
+      </Contact>
       <hr />
     </div>
   );

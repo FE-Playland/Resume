@@ -26,8 +26,10 @@ const ResumeHome = (props: { cn: boolean }) => {
 
   return (
     <div
+      className="resume"
       style={{
-        width: "720px",
+        width: "100%",
+        maxWidth: "720px",
         padding: "30px",
         boxSizing: "border-box"
       }}
